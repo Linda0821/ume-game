@@ -1,0 +1,54 @@
+{
+    "status": "OK",
+    "errMsg": "",
+    "tabs": [
+        {
+            "id": 1,
+            "category": "最热",
+            "subCategories": null,
+            "subCategoryIds": null,
+            "parentId": null,
+            "ranking": null,
+            "categoryIds": null,
+            "ct": null,
+            "ut": null,
+            "isShow": null
+        },
+        {
+            "id": 11,
+            "category": "棋牌",
+            "subCategories": null,
+            "subCategoryIds": null,
+            "parentId": null,
+            "ranking": null,
+            "categoryIds": null,
+            "ct": null,
+            "ut": null,
+            "isShow": null
+        },
+        {
+            "id": 12,
+            "category": "手游",
+            "subCategories": null,
+            "subCategoryIds": null,
+            "parentId": null,
+            "ranking": null,
+            "categoryIds": null,
+            "ct": null,
+            "ut": null,
+            "isShow": null
+        },
+        {
+            "id": 13,
+            "category": "在线玩",
+            "subCategories": null,
+            "subCategoryIds": null,
+            "parentId": null,
+            "ranking": null,
+            "categoryIds": null,
+            "ct": null,
+            "ut": null,
+            "isShow": null
+        }
+    ]
+}
