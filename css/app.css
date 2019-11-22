@@ -1,0 +1,513 @@
+html
+{
+    font-family: '微软雅黑';
+
+    color: #2f2f2f;
+    background: #f5f5f5;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+
+    background: #f5f5f5;
+}
+/*版心*/
+.bg
+{
+    background: #fff;
+}
+a
+{
+    text-decoration: none;
+
+    color: #2f2f2f;
+}
+a:active,
+a:hover
+{
+    outline: 0;
+}
+button,
+input,
+optgroup,
+select,
+textarea
+{
+    font: inherit;
+
+    margin: 0;
+
+    color: inherit;
+}
+button
+{
+    overflow: visible;
+}
+button,
+select
+{
+    text-transform: none;
+}
+ul,
+p
+{
+    margin: 0;
+    padding: 0;
+}
+ul li
+{
+    list-style: none;
+}
+/*响应式设置*/
+@media only screen and (min-width:720px)
+{
+    html
+    {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:420px) and (max-width:720px)
+{
+    html
+    {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width:330px) and (max-width:420px)
+{
+    html
+    {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:330px )
+{
+    html
+    {
+        font-size: 14px;
+    }
+}
+
+/* common*/
+.app-box
+{
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: .4rem;
+}
+.app-box h1
+{
+    font: normal 1rem '微软雅黑';
+    position: relative;
+    margin: 0;
+    padding: .3rem 1rem;
+    color: #2f2f2f;
+}
+.app-box h1 a
+{
+    font: normal .8666rem '微软雅黑';
+
+    float: right;
+
+    text-decoration: none;
+
+    color: #a2a3a4;
+}
+.app-box h1 a i
+{
+    display: inline-block;
+
+    width: .6666rem;
+    height: .6666rem;
+
+    background: url(../img/more.png) no-repeat center/cover;
+}
+
+/*table comon*/
+.table
+{
+    margin: 0 4%;
+}
+.table li
+{
+    float: left;
+    box-sizing: border-box;
+    width: 20%;
+    /* margin-right: 5%; */
+    text-align: center;
+}
+.table li .img
+{
+    width: 100%;
+    /* padding: 0 4%; */
+}
+.table li .img img
+{
+    overflow: hidden;
+
+    width: 76%;
+
+    border-radius: .8rem;
+}
+.table li p:first-of-type
+{
+    /*推荐游戏标题*/
+    font: normal .8rem '微软雅黑';
+    width: 100%;
+    line-height: 1rem;
+    /*超出两行省略号*/
+    overflow: hidden;
+    height: 1rem;
+    margin: .2333rem 0 0rem;
+    padding: 0;
+    text-overflow: clip;
+    color: #2f2f2f;
+}
+.table li p:last-of-type
+{
+    /*推荐游戏大小*/
+    font: normal .625rem '微软雅黑';
+    margin: .1rem 0;
+    color: #787878;
+}
+
+.table li a.btn
+{
+    font: normal .9rem '微软雅黑';
+    /*速装按钮*/
+    display: inline-block;
+    box-sizing: border-box;
+    padding: .12rem 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #00acea;
+    border: .0625rem solid #00acea;
+    border-radius: .2rem;
+}
+.table {
+    margin-right:0;
+}
+#recommend {
+    margin-bottom: .4rem;
+}
+#recommend h1{
+    text-align: center;
+    color: #00acea;
+    background:url("../img/left.png") 14% 52% no-repeat,
+    url("../img/right.png") 88% 52% no-repeat;
+    background-size: 26% .0625rem;
+    position:relative;
+}
+/* #recommend h1:before, #recommend h1:after {
+    content: '';                 CSS伪类用法
+    position: absolute;         定位背景横线的位置
+    top: 52%;
+    width: 30%;
+    height: .0625rem;
+}
+#recommend h1:before{
+    background: url("../img/left.png") 0 0.26667rem no-repeat;
+    background-size: 30% .125rem;
+    left: 8%;        调整背景横线的左右距离
+}
+#recommend h1:after {
+    background: url("../img/right.png") 0 0.26667rem no-repeat;
+    background-size: 30% .125rem;
+    right: 8%;
+} */
+#chess .table li,#all .table li{
+    width: 18%;
+    /* margin-right: 8%; */
+}
+.app-box .table li a.btn
+{
+    width: 76%;
+    margin-bottom: .6rem;
+}
+/*table-vertical comon*/
+#singal .table-vertical
+{
+    margin: 0;
+    padding: 0 1rem;
+
+    transform: translateY(0px);
+
+    background: #fff;
+}
+.table-vertical li
+{
+    box-sizing: content-box;
+    height: 5.3333rem;
+    list-style: none;
+    border-bottom: .0625rem solid #f0f0f1;
+}
+.table-vertical li .img
+{
+    float: left;
+    /*图片盒子*/
+    width: 3.56665rem;
+    height: 3.56665rem;
+    margin-top: .83335rem;
+    border-radius: .8rem;
+}
+.table-vertical li .img  img
+{
+    width: 3.6666rem;
+    height: 3.6666rem;
+
+    border-radius: .8rem;
+}
+.table-vertical li a.btn
+{
+    font: normal 1rem '微软雅黑';
+    /*速装按钮*/
+    float: right;
+    box-sizing: border-box;
+    margin-top: 1.83335rem;
+    padding: .12rem .6rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #00acea;
+    border: .0625rem solid #00acea;
+    border-radius: .2rem;
+}
+.table-vertical li .txt
+{
+    float: left;
+
+    padding-left: .5333rem;
+}
+.table-vertical li  p
+{
+    font: normal .86666rem '微软雅黑';
+
+    color: #787878;
+}
+#singal .table-vertical li p:first-of-type
+{
+    font: normal 1rem '微软雅黑';
+
+    display: -webkit-box;
+    /*超出两行省略号*/
+    overflow: hidden;
+    /*游戏名*/
+
+    padding-top: 1.2rem;
+
+    text-overflow: ellipsis;
+
+    color: #2f2f2f;
+
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+#singal .table-vertical li  p:last-of-type
+{
+    /*游戏类型、大小*/
+    padding-top: .3333rem;
+}
+#singal .table-vertical li p:last-of-type span.seporator
+{
+    margin: 0 .73333rem;
+}
+#singal
+{
+    margin: 0;
+}
+
+
+/* #banner-swipe*/
+#banner-swipe
+{
+    width: 100%;
+}
+#banner-swipe .pagination
+{
+    /*分页部件显示*/
+    position: absolute;
+    z-index: 20;
+    bottom: .625rem;
+
+    width: 100%;
+
+    text-align: center;
+}
+/*  */
+#banner-swipe .swiper-pagination-bullet
+{
+    display: inline-block;
+
+    width: .5rem;
+    height: .5rem;
+    margin: 0 .3125rem;
+
+    cursor: pointer;
+
+    opacity: .8;
+    border: .0625rem solid #fff;
+    border-radius:.5rem;
+    background: #555;
+}
+#banner-swipe .swiper-pagination-bullet-active
+{
+    background: #fff;
+}
+#banner-swipe .swiper-slide
+{
+    height: 7rem;
+}
+#banner-swipe .swiper-slide img
+{
+    width: 100%;
+    height: 7rem;
+    object-fit: cover;
+}
+
+/* #icon-list */
+#icon-list
+{
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: .4rem;
+    padding: .4rem 0;
+}
+#icon-list ul li
+{
+    float: left;
+
+    box-sizing: border-box;
+    width: 25%;
+
+    text-align: center;
+}
+#icon-list ul li p
+{
+    font-size: .8rem;
+}
+#icon-list ul li img
+{
+    width: 20%;
+}
+
+/* #recommend*/
+#first
+{
+    clear: both;
+    overflow: hidden;
+    width: 92%;
+    padding: 0 4%;
+    position:relative;
+    background-color: #fff;
+    margin-bottom: .4rem;
+}
+#first .table-vertical li{
+    height: 4.53335rem;
+    border-bottom:  none;
+}
+#first .table-vertical li .img{
+    margin-top: .43335rem;
+}
+#first .table-vertical li .btn{
+    margin-top: 1.43335rem;
+}
+#first .table-vertical li p{
+    /* font-size: .8rem; */
+    line-height: 1.1rem;
+}
+#first .table-vertical li p span{
+    font-size: .75rem;
+}
+#first .table-vertical li p:first-of-type
+{
+    font: normal 1rem '微软雅黑';
+    display: -webkit-box;
+    /*超出两行省略号*/
+    overflow: hidden;
+    /*游戏名*/
+    padding-top: .43335rem;
+    text-overflow: ellipsis;
+    color: #2f2f2f;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+#first .table-vertical li p:nth-child(2){
+    margin-top: .2rem;
+}
+#first .table-vertical li p:last-of-type{
+    font-size: .75rem;
+}
+#first .table-vertical li p:last-of-type span.seporator
+{
+    margin: 0 .23333rem;
+}
+#first .firstIcon{
+    /* position: absolute; */
+    /* top: .56665rem; */
+    /* left: 36%; */
+    background-color: orange;
+    color:#fff;
+    padding: 0 .3rem;
+    margin-left: .3rem;
+    /* font-size: .7rem; */
+    height: 1.2rem;
+    line-height: 1.2rem;
+    border-radius: .2rem;
+}
+
+/*上拉刷新*/
+.dropload-refresh
+{
+    position: relative;
+
+    height: 3.125rem;
+
+    background: #fff;
+}
+.dropload-refresh .img
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: -0.75rem;
+    margin-left: -0.75rem;
+
+    animation: rotating .8s linear infinite;
+
+    background: url('../img/loading.png') no-repeat center/contain;
+}
+@keyframes rotating
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
+
+
+/**
+ * 2018-04-17
+ */
+#chess {
+    margin-bottom: 0;
+    position:relative;
+
+}
+#chess:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 92%;
+    background-color: #eee;
+    left:4%;
+    /* height: .0625rem; */
+}
