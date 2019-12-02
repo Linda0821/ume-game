@@ -79,9 +79,9 @@ function getBannerImg() {
 // 2.设置WeFIX参数
 function getDataToPostWeFIX(){
   var params ={};
-  var device_id = "123456",
-  ip = returnCitySN["cip"]?returnCitySN["cip"]:'116.25.45.37',
-  requestId =  "";
+  var device_id = "860276040581386",
+    ip = returnCitySN["cip"]?returnCitySN["cip"]:'116.25.45.37',
+    requestId =  "4444444";
   try {
     var p = window.sumead.getAdParams();
     params = JSON.parse(p);
@@ -110,7 +110,7 @@ function getDataToPostWeFIX(){
     }
   }
   var flowId = "F4Qw5zAkV6EbikDFAL6xbe",
-    tagId = "Bxg8EjYEAfbDMdNhvAByzn",
+    tagId = "jJSoGLTkyryMnbw2YjLrB",
     sourceId = "24LF3C2YfmCXFmerY4w74P",
     time = Date.parse(new Date()),
     text = "deviceId="+device_id+"&flowId="+flowId+"&sourceId="+sourceId,
@@ -218,7 +218,7 @@ function setIconList() {
   // 拼接dom
   var ts = '';
   var tabsCategory = ["必备","精品","直播","游戏"];
-  var imgUrlArr = ["./img/icon_r.png", "./img/icon_q.png", "./img/icon_s.png", "./img/icon_z.png"];
+  var imgUrlArr = ["../img/icon_r.png", "../img/icon_q.png", "../img/icon_s.png", "../img/icon_z.png"];
   var imgLinkArr = ["detail.html#appid=1", "detail.html#appid=2", "http://live.umeweb.cn/", "http://game.umeweb.cn/"];
   if (isNormalDomain) {
     imgUrlArr = ["../img/icon_r.png", "../img/icon_q.png", "../img/icon_s.png", "../img/icon_z.png"];
